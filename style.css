@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: gray;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    transition: opacity 0.3s ease;
+}
+
+#gallery img:hover {
+    opacity: 0.7;
+}
+
+.accordion-toggle {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #ecf0f1;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+#passwordFeedback {
+    color: #e74c3c;
+    font-size: 12px;
+}
